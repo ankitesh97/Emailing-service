@@ -1,0 +1,115 @@
+ul.hor_menu{
+	list-style-type: none;
+    margin: 0;
+    padding: auto;
+
+}
+
+li.menu_bar{
+    float: left;
+}
+
+.top_menu_list{
+	overflow: hidden;
+    margin-top: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.list{margin: 0 auto; }
+
+.menu_buttons{
+	width: 120px;
+	height: 60px;
+    border: 1px solid cyan;
+    border-radius: 2px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center;
+	margin-right: 16px;
+	margin-left: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    outline: 0;
+    background-color: #fff;
+}
+
+.menu_buttons:hover{
+	background-color: #f5f5f5;
+
+}
+
+#back_to_home{background-image: url(../images/back.png);}
+#back_to_home:hover{background-image: url(../images/back_hover.png);}
+
+#star_mail{background-image: url(../images/star.png);}
+#star_mail:hover{background-image: url(../images/star_hover.png);}
+
+#report_spam{background-image: url(../images/unreport_spam.png);}
+#report_spam:hover{background-image: url(../images/unreport_spam_hover.png);}
+
+#delete_mail{background-image: url(../images/delete_in_inbox.png);}
+#delete_mail:hover{background-image: url(../images/delete_in_inbox_hover.png);}
+
+li.menu_bar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.menu_bar a:hover {
+    background-color: #111;
+}
+
+.message{
+	color: navajowhite;
+    margin-left: 50px;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+
+
+}
+
+hr{
+	border: 1px solid lightgrey;
+}
+
+img{
+	border-radius: 10px;
+	border: 1px solid black;
+	background:white;
+}
+
+.message_sender{
+	padding-top: 10px;
+
+}
+
+.reply{
+    display: none;
+}
+
+a#reply_msg, #down_attach{
+    text-decoration: none;
+    color: yellow;
+}
+
+a#reply_msg:hover{
+        text-decoration: underline;
+    font-size: 1.5em;
+
+}
+
+a#down_attach:hover{
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+

@@ -1,0 +1,88 @@
+
+
+.classtosettings{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.classsettings h3 {
+	color: #FFF;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	padding:20px 0;
+	text-align: center;
+	background: #11a8ab;
+	border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	-o-border-radius:5px 5px 0 0;
+}
+
+.settings_list{
+	background:#394264;
+	border-radius:0px 0px 5px 5px;
+	-webkit-border-radius:0px 0px 5px 5px;
+	-moz-border-radius:0px 0px 5px 5px;
+}
+
+.settings_list li a{
+	display:block;
+	color:#FFF;
+	font-size: 1.2em;
+	border-bottom:1px solid #1f253d;
+	padding:20px 30px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+}
+
+.settings_list li a:hover{
+		background:#50597b;
+}
+
+.settings_list li a.ViewProfile{
+	background-image: url(../images/profilesettings.png);
+	background-repeat: no-repeat;
+	background-position: 30% 10px;
+}
+.settings_list li a.ViewProfile:hover{
+	background-image: url(../images/profilesettingsonhover.png);
+	background-repeat: no-repeat;
+	background-position: 28% 10px;
+}
+
+.settings_list li a.ChangePass{
+	background-image: url(../images/passwordsettings.png);
+	background-repeat: no-repeat;
+	background-position: 30% 10px;
+}
+.settings_list li a.ChangePass:hover{
+	background-image: url(../images/passwordsettingsonhover.png);
+	background-repeat: no-repeat;
+	background-position: 28% 10px;
+}
+
+
+.settings_list li a.SetSpamMode{
+	background-image: url(../images/spam.png);
+	background-repeat: no-repeat;
+	background-position: 30% 10px;
+}
+.settings_list li a.SetSpamMode:hover{
+	background-image: url(../images/spamonhover.png);
+	background-repeat: no-repeat;
+	background-position: 28% 10px;
+}
+
+
+.settings_list li a.DeleteAcc{
+	background-image: url(../images/delete.png);
+	background-repeat: no-repeat;
+	background-position: 30% 10px;
+}
+.settings_list li a.DeleteAcc:hover{
+	background-image: url(../images/deleteonhover.png);
+	background-repeat: no-repeat;
+	background-position: 28% 10px;
+}
+

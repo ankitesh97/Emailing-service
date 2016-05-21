@@ -1,0 +1,54 @@
+
+
+.bottom{
+	text-align: left;
+	width: 100%;
+	background-color: #f5f5f5;
+    position: relative;
+    margin-top: -20px ;
+    padding-right: 2px;
+}
+
+.bottom li{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.bottom #send_mail{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 10px;
+}
+
+
+.bottom #file_upload{
+
+ 
+}
+.up{
+	float: right;
+	visibility: hidden;
+}
+
+.bottom #attach{
+   margin-left: 60px;
+
+}
+
+li.attch_file{
+	   height: 27px;
+}
+
+

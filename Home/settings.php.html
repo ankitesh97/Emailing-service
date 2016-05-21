@@ -1,0 +1,23 @@
+<head>
+	<link href="css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+<style >
+   body{
+   	background-color: #000066;
+   }
+</style>
+
+	<body>
+
+							  <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+							<ul class="nav">
+								<li><a href="#"><i><img src="images/settings.png" alt="" /></i>Settings</a></li>
+								<li class="active"><a href="#"><i><img src="images/user.png" alt="" /></i>Account</a></li>
+								<li><a href="#"><i><img src="images/contact_us.png" alt="" /></i>Contact Us <</a></li>
+								<li><a href="#"><i><img src="images/starred.png" alt="" /></i>Starred</a></li>
+							<div class="clear"></div>
+						    </ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				        </div>
+	</body>
+</head>

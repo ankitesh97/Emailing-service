@@ -1,0 +1,109 @@
+ul{list-style-type: none;}
+p{display: inline-block;}
+#first{border-top: 1px solid black;}
+#last{border-bottom: 1px solid black;}
+
+.modal{
+    display: none;
+	z-index: 1;
+	left: 0;
+	position: fixed;
+    top: 0;
+	padding-top: 100px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	
+}
+
+.details{
+
+	/*width: 800px;
+	left: 0;
+	position: fixed;
+    top: 0;
+    overflow: auto;*/
+    position: relative;
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+	margin: 0 auto;
+	height: auto;
+	text-align: left;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+	-webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.8s;
+    animation-name: animatetop;
+    animation-duration: 0.8s
+	}
+
+.details li a{
+	display:block;
+	font-size: 1.2em;
+	height: 50px;
+	background: transparent;
+	border-bottom:1px solid rgb(200, 200, 200);
+    -webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+}
+
+
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; cursor: pointer;}
+
+.details li a:hover{
+
+	cursor: pointer;
+	background: rgb(220, 220, 220);
+}
+
+.details img{
+	position: absolute;
+      top: 0;
+      right: 0;
+}
+
+
+
+.clears{
+	font-weight: bold;
+    width: 400px;
+	display: inline-block;
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+

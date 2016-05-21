@@ -1,0 +1,66 @@
+.classtospam{
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.classspam h3 {
+	color: #FFF;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	padding:10px 0;
+	text-align: center;
+	background: #11a8ab;
+	border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	-o-border-radius:5px 5px 0 0;
+}
+
+.spam_list{
+	background:#394264;
+	border-radius:0px 0px 5px 5px;
+	-webkit-border-radius:0px 0px 5px 5px;
+	-moz-border-radius:0px 0px 5px 5px;
+}
+
+.spam_list li a{
+	display:block;
+	color:#FFF;
+	font-size: 1.2em;
+	border-bottom:1px solid #1f253d;
+	padding:30px 30px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+}
+.spam_list li a:hover{
+		background:#50597b;
+		cursor: pointer;
+}
+
+.left{
+	width: 20%;
+	text-align: left;
+	position: relative;
+	float: left;
+}
+
+.middle{
+	padding-left: 1em;
+	width: 60%;
+	text-align: left;
+	float: left;
+	position: relative;
+
+	
+}
+
+.right{
+	width: 10%;
+	padding-left: 1em;
+	text-align: left;
+	float: right;
+	position: relative;
+}
+
+

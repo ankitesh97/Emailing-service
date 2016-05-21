@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Download File From MySQL</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<?php
+$mysql_host = 'localhost';
+$mysql_user = 'root';
+$mysql_pass = '';
+$mysql_db = 'mailingservice';
+$conn = mysqli_connect($mysql_host, $mysql_user, $mysql_pass, $mysql_db);
+
+
+$query = "SELECT Id, Attachname FROM mails where Id =22";
+$result = mysqli_query($conn,$query);
+$result = mysqli_query($conn,$query);
+$row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+$id = $row['Id'];
+$name = $row['Attachname'];
+?>
+<a href="download.php?id=<?php echo $id;?>">
+<?php echo $name;?></a> <br>
+
+</body>
+</html>
